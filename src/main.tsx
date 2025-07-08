@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from '../Component Props Typing/App.tsx'
+import App from '../Reusable Types/App.tsx' 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
