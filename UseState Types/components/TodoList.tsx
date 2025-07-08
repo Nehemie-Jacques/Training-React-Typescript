@@ -8,7 +8,7 @@ interface Todo {
 }
 
 const TodoList: React.FC = () => {
-    const [todos, setTodos] =useState<Todo[]>([]);
+    const [todos, setTodos] = useState<Todo[]>([]);
 
     const addTodo = (title : string) => {
         const newTodo: Todo = {
