@@ -1,7 +1,7 @@
 import React from "react";
 import UserInfo from "./components/UserInfo";
 import AdminInfo from "./components/AdminInfo";
-import { Info, AdminInfoList } from "./types";
+import type { Info, AdminInfoList } from "./types";
 
 const App = () => {
     const user : Info = {

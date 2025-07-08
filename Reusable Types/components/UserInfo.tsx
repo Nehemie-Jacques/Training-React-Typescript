@@ -1,5 +1,5 @@
 import React from "react";
-import { Info } from "../types";
+import type { Info } from "../types";
 
 type UserInfoProps = {
     user: Info

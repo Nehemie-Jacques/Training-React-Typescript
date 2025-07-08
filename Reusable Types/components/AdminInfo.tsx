@@ -1,5 +1,5 @@
 import React from "react";
-import { AdminInfoList } from "../types";
+import type { AdminInfoList } from "../types";
 
 type AdminInfoProps = { admin : AdminInfoList }
 
